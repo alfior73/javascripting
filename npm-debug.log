@@ -1,0 +1,165 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'node', '/usr/local/bin/npm', 'install', 'javascripting', '-g' ]
+2 info using npm@1.4.28
+3 info using node@v0.10.36
+4 verbose cache add [ 'javascripting', null ]
+5 verbose cache add name=undefined spec="javascripting" args=["javascripting",null]
+6 verbose parsed url { protocol: null,
+6 verbose parsed url   slashes: null,
+6 verbose parsed url   auth: null,
+6 verbose parsed url   host: null,
+6 verbose parsed url   port: null,
+6 verbose parsed url   hostname: null,
+6 verbose parsed url   hash: null,
+6 verbose parsed url   search: null,
+6 verbose parsed url   query: null,
+6 verbose parsed url   pathname: 'javascripting',
+6 verbose parsed url   path: 'javascripting',
+6 verbose parsed url   href: 'javascripting' }
+7 silly lockFile ae6d31f2-javascripting javascripting
+8 verbose lock javascripting /Users/Lego/.npm/ae6d31f2-javascripting.lock
+9 silly lockFile ae6d31f2-javascripting javascripting
+10 silly lockFile ae6d31f2-javascripting javascripting
+11 verbose addNamed [ 'javascripting', '' ]
+12 verbose addNamed [ null, '*' ]
+13 silly lockFile 9ef866d8-javascripting javascripting@
+14 verbose lock javascripting@ /Users/Lego/.npm/9ef866d8-javascripting.lock
+15 silly addNameRange { name: 'javascripting', range: '*', hasData: false }
+16 verbose request where is /javascripting
+17 verbose request registry https://registry.npmjs.org/
+18 verbose request id 7882f74e7b269691
+19 verbose url raw /javascripting
+20 verbose url resolving [ 'https://registry.npmjs.org/', './javascripting' ]
+21 verbose url resolved https://registry.npmjs.org/javascripting
+22 verbose request where is https://registry.npmjs.org/javascripting
+23 info trying registry request attempt 1 at 10:11:17
+24 http GET https://registry.npmjs.org/javascripting
+25 http 200 https://registry.npmjs.org/javascripting
+26 silly registry.get cb [ 200,
+26 silly registry.get   { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+26 silly registry.get     etag: '"11MGUQA4VTTJAYTXY7WEKYKVH"',
+26 silly registry.get     'content-type': 'application/json',
+26 silly registry.get     'cache-control': 'max-age=60',
+26 silly registry.get     'content-length': '28499',
+26 silly registry.get     'accept-ranges': 'bytes',
+26 silly registry.get     date: 'Sun, 24 May 2015 14:11:18 GMT',
+26 silly registry.get     via: '1.1 varnish',
+26 silly registry.get     age: '0',
+26 silly registry.get     connection: 'keep-alive',
+26 silly registry.get     'x-served-by': 'cache-atl6228-ATL',
+26 silly registry.get     'x-cache': 'MISS',
+26 silly registry.get     'x-cache-hits': '0',
+26 silly registry.get     'x-timer': 'S1432476677.992947,VS0,VE355',
+26 silly registry.get     vary: 'Accept' } ]
+27 silly addNameRange number 2 { name: 'javascripting', range: '*', hasData: true }
+28 silly addNameRange versions [ 'javascripting',
+28 silly addNameRange   [ '1.0.0',
+28 silly addNameRange     '1.0.1',
+28 silly addNameRange     '1.1.0',
+28 silly addNameRange     '1.1.1',
+28 silly addNameRange     '1.1.2',
+28 silly addNameRange     '1.1.3',
+28 silly addNameRange     '1.2.0',
+28 silly addNameRange     '1.3.0',
+28 silly addNameRange     '1.4.0',
+28 silly addNameRange     '1.5.0',
+28 silly addNameRange     '1.6.0',
+28 silly addNameRange     '1.7.0',
+28 silly addNameRange     '1.8.0',
+28 silly addNameRange     '1.9.0',
+28 silly addNameRange     '1.9.1',
+28 silly addNameRange     '1.10.0',
+28 silly addNameRange     '1.10.1',
+28 silly addNameRange     '1.10.2',
+28 silly addNameRange     '1.10.3',
+28 silly addNameRange     '1.11.0',
+28 silly addNameRange     '1.11.1',
+28 silly addNameRange     '1.12.0',
+28 silly addNameRange     '2.0.0',
+28 silly addNameRange     '2.0.1',
+28 silly addNameRange     '2.0.2' ] ]
+29 verbose addNamed [ 'javascripting', '2.0.2' ]
+30 verbose addNamed [ '2.0.2', '2.0.2' ]
+31 silly lockFile f85f9480-javascripting-2-0-2 javascripting@2.0.2
+32 verbose lock javascripting@2.0.2 /Users/Lego/.npm/f85f9480-javascripting-2-0-2.lock
+33 silly lockFile e54a17d3-cripting-javascripting-2-0-2-tgz https://registry.npmjs.org/javascripting/-/javascripting-2.0.2.tgz
+34 verbose lock https://registry.npmjs.org/javascripting/-/javascripting-2.0.2.tgz /Users/Lego/.npm/e54a17d3-cripting-javascripting-2-0-2-tgz.lock
+35 verbose addRemoteTarball [ 'https://registry.npmjs.org/javascripting/-/javascripting-2.0.2.tgz',
+35 verbose addRemoteTarball   '739091d934e292bdcd5e8a764c115917b669b999' ]
+36 info retry fetch attempt 1 at 10:11:18
+37 verbose fetch to= /var/folders/yy/4bv2nnxj0mg0c98qhd11v7140000gn/T/npm-6884-5eRNVu4s/registry.npmjs.org/javascripting/-/javascripting-2.0.2.tgz
+38 http GET https://registry.npmjs.org/javascripting/-/javascripting-2.0.2.tgz
+39 http 200 https://registry.npmjs.org/javascripting/-/javascripting-2.0.2.tgz
+40 silly lockFile e54a17d3-cripting-javascripting-2-0-2-tgz https://registry.npmjs.org/javascripting/-/javascripting-2.0.2.tgz
+41 silly lockFile e54a17d3-cripting-javascripting-2-0-2-tgz https://registry.npmjs.org/javascripting/-/javascripting-2.0.2.tgz
+42 silly lockFile f85f9480-javascripting-2-0-2 javascripting@2.0.2
+43 silly lockFile f85f9480-javascripting-2-0-2 javascripting@2.0.2
+44 silly lockFile 9ef866d8-javascripting javascripting@
+45 silly lockFile 9ef866d8-javascripting javascripting@
+46 silly resolved [ { name: 'javascripting',
+46 silly resolved     description: 'Learn JavaScript by adventuring around in the terminal.',
+46 silly resolved     version: '2.0.2',
+46 silly resolved     repository: { url: 'git://github.com/sethvincent/javascripting.git' },
+46 silly resolved     author: { name: 'sethvincent' },
+46 silly resolved     bin: { javascripting: 'index.js' },
+46 silly resolved     preferGlobal: true,
+46 silly resolved     dependencies:
+46 silly resolved      { 'cli-md': '^0.1.0',
+46 silly resolved        colors: '^1.0.3',
+46 silly resolved        diff: '^1.2.1',
+46 silly resolved        'workshopper-adventure': 'git://github.com/martinheidegger/workshopper.git#adventure' },
+46 silly resolved     license: 'MIT',
+46 silly resolved     gitHead: '4794242748e924a4640b308561f8197c5d7621a2',
+46 silly resolved     bugs: { url: 'https://github.com/sethvincent/javascripting/issues' },
+46 silly resolved     homepage: 'https://github.com/sethvincent/javascripting',
+46 silly resolved     _id: 'javascripting@2.0.2',
+46 silly resolved     scripts: {},
+46 silly resolved     _shasum: '739091d934e292bdcd5e8a764c115917b669b999',
+46 silly resolved     _from: 'javascripting@',
+46 silly resolved     _npmVersion: '2.7.5',
+46 silly resolved     _nodeVersion: '0.10.35',
+46 silly resolved     _npmUser: { name: 'sethvincent', email: 'sethvincent@gmail.com' },
+46 silly resolved     maintainers: [ [Object] ],
+46 silly resolved     dist:
+46 silly resolved      { shasum: '739091d934e292bdcd5e8a764c115917b669b999',
+46 silly resolved        tarball: 'http://registry.npmjs.org/javascripting/-/javascripting-2.0.2.tgz' },
+46 silly resolved     directories: {},
+46 silly resolved     _resolved: 'https://registry.npmjs.org/javascripting/-/javascripting-2.0.2.tgz' } ]
+47 info install javascripting@2.0.2 into /usr/local/lib
+48 info installOne javascripting@2.0.2
+49 verbose lib/node_modules/javascripting unbuild
+50 verbose tar unpack /Users/Lego/.npm/javascripting/2.0.2/package.tgz
+51 silly lockFile 79ce8374-l-lib-node-modules-javascripting tar:///usr/local/lib/node_modules/javascripting
+52 verbose lock tar:///usr/local/lib/node_modules/javascripting /Users/Lego/.npm/79ce8374-l-lib-node-modules-javascripting.lock
+53 silly lockFile e6a8ff7c--javascripting-2-0-2-package-tgz tar:///Users/Lego/.npm/javascripting/2.0.2/package.tgz
+54 verbose lock tar:///Users/Lego/.npm/javascripting/2.0.2/package.tgz /Users/Lego/.npm/e6a8ff7c--javascripting-2-0-2-package-tgz.lock
+55 silly gunzTarPerm modes [ '755', '644' ]
+56 error Error: EACCES, mkdir '/usr/local/lib/node_modules/javascripting'
+56 error  { [Error: EACCES, mkdir '/usr/local/lib/node_modules/javascripting']
+56 error   errno: 3,
+56 error   code: 'EACCES',
+56 error   path: '/usr/local/lib/node_modules/javascripting',
+56 error   fstream_type: 'Directory',
+56 error   fstream_path: '/usr/local/lib/node_modules/javascripting',
+56 error   fstream_class: 'DirWriter',
+56 error   fstream_stack:
+56 error    [ '/usr/local/lib/node_modules/npm/node_modules/fstream/lib/dir-writer.js:36:23',
+56 error      '/usr/local/lib/node_modules/npm/node_modules/mkdirp/index.js:46:53',
+56 error      'Object.oncomplete (fs.js:108:15)' ] }
+57 error Please try running this command again as root/Administrator.
+58 error System Darwin 14.3.0
+59 error command "node" "/usr/local/bin/npm" "install" "javascripting" "-g"
+60 error cwd /Users/Lego/Sites/node/javascripting
+61 error node -v v0.10.36
+62 error npm -v 1.4.28
+63 error path /usr/local/lib/node_modules/javascripting
+64 error fstream_path /usr/local/lib/node_modules/javascripting
+65 error fstream_type Directory
+66 error fstream_class DirWriter
+67 error code EACCES
+68 error errno 3
+69 error stack Error: EACCES, mkdir '/usr/local/lib/node_modules/javascripting'
+70 error fstream_stack /usr/local/lib/node_modules/npm/node_modules/fstream/lib/dir-writer.js:36:23
+70 error fstream_stack /usr/local/lib/node_modules/npm/node_modules/mkdirp/index.js:46:53
+70 error fstream_stack Object.oncomplete (fs.js:108:15)
+71 verbose exit [ 3, true ]
